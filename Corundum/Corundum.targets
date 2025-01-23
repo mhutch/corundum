@@ -1,0 +1,5 @@
+<Project>
+ <PropertyGroup>
+    <Nullable Condition="'$(Nullable)'=='enable' and '$(TargetFramework)'==''">annotations</Nullable>
+ </PropertyGroup>
+</Project>
